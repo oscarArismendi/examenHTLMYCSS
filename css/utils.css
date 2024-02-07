@@ -1,0 +1,117 @@
+*{
+    color: green;
+}
+ul li{
+    list-style: none;
+}
+
+/*-----------------header--------------*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    gap:4vh;
+    max-width: 13%;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+/*--------------Nav part--------------*/
+#nav-list{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    gap:2vh;
+}
+
+#nav-list a{
+    text-decoration: none;
+    
+}
+
+
+#nav-list li:hover{
+    border:2px green solid;
+    opacity: 0.8;
+}
+
+#nav-list li{
+    max-width: 90%;
+}
+
+#nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*---------------- content-----------*/
+
+
+#container{
+    border: 2px red solid;
+    display: flex;
+    padding: 2% 2%;
+    margin-left: 200px;
+}
+
+#content{
+    border:2px green solid;
+    margin: 0 auto;
+}
+
+#content h1{
+    text-align: center;
+}
+
+#content ul{
+    padding: 0.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    justify-content: space-evenly;
+}
+
+.description{
+    border: 2px green solid;
+    /* padding: auto; */
+    border-radius: 10%/30%;
+    padding: 0.4rem;
+}
+
+.item-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*------------ img --------------------*/
+
+li img{
+    max-height: clamp(4.688rem, 1.136rem + 28.409vw, 43.75rem);
+}
+
+/*----------general---------- */
+
+.margin-bottom-4vh{
+    margin-bottom: 4vh;
+}
+
+#actual-page{
+    background-color: greenyellow;
+}
+
+#cart-li{
+    display: flex;
+    gap: 1rem;
+}
+
+#cart-li p{
+    border: 1px green solid;
+    border-radius: 100%;
+    padding: 2%;
+}

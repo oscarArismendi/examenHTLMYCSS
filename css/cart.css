@@ -1,0 +1,21 @@
+@import url(utils.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#cart-li{
+    background-color: greenyellow;
+}
+
+ul li{
+    flex-grow: 1;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 2%;
+}
