@@ -6,6 +6,7 @@
 
 #cart-li{
     background-color: greenyellow;
+    border-radius: 100px;
 }
 
 ul li{
@@ -17,5 +18,30 @@ ul li{
     align-items: center;
     gap: 1rem;
     justify-content: space-between;
-    padding: 2%;
+    padding: 0.4rem;
+    text-align: center;
 }
+#content ul{
+    flex-direction: column;
+}
+h2{
+    font-size:clamp(0.9rem, 0.367rem + 1.067vw, 1.7rem);
+}
+/*-------------media-------------------*/
+@media screen and (max-width: 800px) {
+    li img{
+        padding:0;
+        max-height: clamp(2.625rem, -1.604rem + 33.833vw, 15.313rem);
+    }
+    h2{
+        font-size: clamp(0.4rem, 0.127rem + 1.745vw, 1rem);
+    }
+    .description div p{
+        font-size: clamp(0.4rem, 0.127rem + 1.745vw, 1rem);
+    }
+
+    .description{
+        max-width: 100%;
+    }
+}
+
